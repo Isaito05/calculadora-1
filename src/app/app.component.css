@@ -20,7 +20,7 @@ table {
     width: 55px;
     background-color: rgb(255, 255, 255);
     transition: all 400ms ease;
-    cursor: url(imagenes/cursor.cur), auto;
+    
     
 }
 .boton:hover{
@@ -46,9 +46,9 @@ th, td {
     height: 15px;
     width: 270px;
     text-align: right;
-    background-color: transparent;
+    background-color: white;
     color: rgb(0, 0, 0);
-    border: none;
+    /* border: none; */
 }
 h1{
     text-align: center;
