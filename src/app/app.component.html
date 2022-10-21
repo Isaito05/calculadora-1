@@ -17,44 +17,44 @@
             <td  colspan="4"><input id="resultado2" class="cajat1" [(ngModel)]="pant2" type="text"></td>
          </tr>
          <tr>
-            <td colspan="4"><input id="resultado" class="cajat" [(ngModel)]="pant1" type="number"></td>
+            <td colspan="4"><input id="resultado" class="cajat" [(ngModel)]="pant1" type="text" placeholder="0"></td>
          </tr>
          
          <tr>
-            <td><button onclick="porcentaje()"  class="boton" type="button"><strong>%</strong></button></td>
-            <td><button onclick="borrarce()" class="boton" type="button"><strong>CE</strong></button></td>
-            <td><button onclick="borrarc()" class="boton" type="button"><strong>C</strong></button></td>
-            <td><button onclick="borraruno()" class="boton" type="button"><strong>⌫</strong></button></td>
+            <td><button  (click)="porc()" class="boton" type="button"><strong>%</strong></button></td>
+            <td><button  (click)="borrarCE()" class="boton" type="button"><strong>CE</strong></button></td>
+            <td><button  (click)="borrarC()" class="boton" type="button"><strong>C</strong></button></td>
+            <td><button  (click)="borrarUNO()" class="boton" type="button"><strong>⌫</strong></button></td>
          </tr>
          <tr>
-            <td><button onclick="unopor()" class="boton" type="button"><strong>1/X</strong></button></td>
-            <td><button onclick="pordos()" class="boton" type="button"><strong>X2</strong></button></td>
-            <td><button onclick="raiz()" class="boton" type="button"><strong>SQRT</strong></button></td>
-            <td><button onclick="division()" class="boton" type="button"><strong>/</strong></button></td>
+            <td><button  class="boton" type="button"><strong>1/X</strong></button></td>
+            <td><button  class="boton" type="button"><strong>X2</strong></button></td>
+            <td><button  class="boton" type="button"><strong>SQRT</strong></button></td>
+            <td><button  (click)="div()" class="boton" type="button"><strong>/</strong></button></td>
          </tr>
          <tr>
-            <td><button onclick="siete()" (click)="num7()" class="boton" type="button"><strong>7</strong></button></td>
-            <td><button onclick="ocho()" (click)="num8()" class="boton" type="button"><strong>8</strong></button></td>
-            <td><button onclick="nueve()" (click)="num9()" class="boton" type="button"><strong>9</strong></button></td>
-            <td><button onclick="multiplicacion()" class="boton" type="button"><strong>X</strong></button></td>
+            <td><button  (click)="num7()" class="boton" type="button"><strong>7</strong></button></td>
+            <td><button  (click)="num8()" class="boton" type="button"><strong>8</strong></button></td>
+            <td><button  (click)="num9()" class="boton" type="button"><strong>9</strong></button></td>
+            <td><button  (click)="mul()" class="boton" type="button"><strong>X</strong></button></td>
          </tr>
          <tr>
-            <td><button onclick="cuatro()" (click)="num4()" class="boton" type="button"><strong>4</strong></button></td>
-            <td><button onclick="cinco()" (click)="num5()" class="boton" type="button"><strong>5</strong></button></td>
-            <td><button onclick="seis()" (click)="num6()" class="boton" type="button"><strong>6</strong></button></td>
-            <td><button onclick="menos()"  class="boton" type="button"><strong>-</strong></button></td>
+            <td><button  (click)="num4()" class="boton" type="button"><strong>4</strong></button></td>
+            <td><button  (click)="num5()" class="boton" type="button"><strong>5</strong></button></td>
+            <td><button  (click)="num6()" class="boton" type="button"><strong>6</strong></button></td>
+            <td><button  (click)="resta()" class="boton" type="button"><strong>-</strong></button></td>
          </tr>
           <tr>
-            <td><button  onclick="uno()" (click)="num1()" class="boton" type="button"><strong>1</strong></button></td>
-            <td><button  onclick="dos()" (click)="num2()" class="boton" type="button"><strong>2</strong></button></td>
-            <td><button  onclick="tres()" (click)="num3()" class="boton" type="button"><strong>3</strong></button></td>
-            <td><button  onclick="suma()" (click)="suma()" class="boton" type="button"><strong>+</strong></button></td>
+            <td><button   (click)="num1()" class="boton" type="button"><strong>1</strong></button></td>
+            <td><button   (click)="num2()" class="boton" type="button"><strong>2</strong></button></td>
+            <td><button   (click)="num3()" class="boton" type="button"><strong>3</strong></button></td>
+            <td><button   (click)="suma()" class="boton" type="button"><strong>+</strong></button></td>
          </tr>
           <tr>
-            <td><button onclick="sumaresta()" class="boton" type="button"><strong>+/-</strong></button></td>
-            <td><button onclick="cero()" class="boton" type="button"><strong>0</strong></button></td>
-            <td><button onclick="decimal()" class="boton" type="button"><strong>.</strong></button></td>
-            <td><button onclick="igual()" (click)="igual()" class="boton" type="button"><strong>=</strong></button></td>
+            <td><button  class="boton" type="button"><strong>+/-</strong></button></td>
+            <td><button  (click)="num0()" class="boton" type="button"><strong>0</strong></button></td>
+            <td><button  (click)="decimal()" class="boton" type="button"><strong>.</strong></button></td>
+            <td><button  (click)="igual()" class="boton" type="button"><strong>=</strong></button></td>
          </tr>
      </table>
 </body>

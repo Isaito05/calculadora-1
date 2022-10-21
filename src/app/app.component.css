@@ -46,9 +46,9 @@ th, td {
     height: 15px;
     width: 270px;
     text-align: right;
-    background-color: white;
+    background-color: transparent;
     color: rgb(0, 0, 0);
-    /* border: none; */
+    border: none; 
 }
 h1{
     text-align: center;
